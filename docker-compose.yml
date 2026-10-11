@@ -1,0 +1,16 @@
+services:
+  gru-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gru-sentence-generator:1.0.0
+    container_name: gru-sentence-generator
+    ports:
+      - "8000:8000"
+    environment:
+      APP_NAME: "GRU Sentence Generator API"
+      APP_VERSION: "1.0.0"
+      MODEL_DIR: "/app/artifacts"
+      TF_CPP_MIN_LOG_LEVEL: "2"
+    restart: unless-stopped
+    init: true

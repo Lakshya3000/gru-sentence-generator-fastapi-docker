@@ -1,0 +1,5 @@
+# Runtime dependencies. TensorFlow/Keras versions match the environment where
+# the supplied .keras model was successfully loaded.
+tensorflow==2.21.0
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
