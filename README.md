@@ -6,10 +6,11 @@ The trained model was originally developed in a Jupyter/Google Colab notebook an
 
 ## Project Links
 
+- **Live Demo:** https://gru-sentence-generator-1-0-0.onrender.com/
+- **API Documentation:** https://gru-sentence-generator-1-0-0.onrender.com/docs
+- **Health Check:** https://gru-sentence-generator-1-0-0.onrender.com/health/ready
+- **Docker Hub:** https://hub.docker.com/r/lakshyasanatani/gru-sentence-generator
 - **GitHub Repository:** https://github.com/Lakshya3000/gru-sentence-generator-fastapi-docker
-- **Docker Hub Image:** https://hub.docker.com/r/lakshyasanatani/gru-sentence-generator
-- **Docker Image Tag:** `1.0.0`
-- **Live Demo:** Not deployed yet
 
 ## Features
 
